@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+    <main class="appointment">
+        <form action="" aria-label="Appointment Form">
+            <h1>Book an Appointment</h1>
+            <h2>Owner Information</h2>
+            <div class="owner-info">
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" aria-required="true">
+                </div>
+                <div>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" aria-required="true">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" aria-required="true">
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" aria-required="true">
+                </div>
+            </div>
+            <div>
+                <label for="timezone">Time Zone</label>
+                <select id="timezone" name="timezone" aria-required="true">
+                    <option value="">Choose Time Zone</option>
+                    <option value="PST">Pacific Standard Time (PST)</option>
+                    <option value="MST">Mountain Standard Time (MST)</option>
+                    <option value="CST">Central Standard Time (CST)</option>
+                    <option value="EST">Eastern Standard Time (EST)</option>
+                    <option value="GMT">Greenwich Mean Time (GMT)</option>
+                    <option value="CET">Central European Time (CET)</option>
+                    <option value="IST">Indian Standard Time (IST)</option>
+                    <option value="JST">Japan Standard Time (JST)</option>
+                    <option value="AEST">Australian Eastern Standard Time (AEST)</option>
+                </select>
+            </div>
+            <h2>Pet Information</h2>
+            <div class="pet-information">
+                <div>
+                    <label for="pet-name">Pet's Name</label>
+                    <input type="text" id="pet-name" name="pet-name" aria-required="true">
+                </div>
+                <div>
+                    <label for="pet-type">Pet's Type</label>
+                    <select id="pet-type" name="pet-type" aria-required="true">
+                        <option value="">Choose Type</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="fish">Fish</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="date-picker">Choose Date</label>
+                    <input type="date" name="date-picker" id="date-picker" aria-required="true">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter your message..."
+                        aria-required="false"></textarea>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <img src="./images/appointment-hero.jpg" alt="Dog and cat playfully interacting indoors">
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/84304e656f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
