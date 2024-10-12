@@ -20,6 +20,8 @@ body {
     font-size: 1rem;
     color: #323232;
     min-width: 375px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 img {

@@ -9,7 +9,45 @@
 </head>
 
 <body>
-    <div id="header-placeholder"></div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./images/logo.jpg.png" alt="">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="pet-dropdown"><a href="">Pet Profiles <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="pet-dropdown-content">
+                        <li><a href="dogs.html">Dogs</a></li>
+                        <li><a href="cats.html">Cats</a></li>
+                        <li><a href="fish.html">Fish</a></li>
+                    </ul>
+                </li>
+                <li><a href="appointment.html">Book an Appointment</a></li>
+            </ul>
+            <div class="search-container">
+                <form action="#">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="Search..." name="search">
+                </form>
+            </div>
+            <div class="dropdown">
+                <img src="./images/burger-bar.png" alt="">
+                <ul class="dropdown-content">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="submenu">
+                        <a href="">Pet Profiles <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu-content">
+                            <li><a href="dogs.html">Dogs</a></li>
+                            <li><a href="cats.html">Cats</a></li>
+                            <li><a href="fish.html">Fish</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="appointment.html">Book an Appointment</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <main class="appointment">
         <form action="" aria-label="Appointment Form">
             <h1>Book an Appointment</h1>
@@ -76,9 +114,35 @@
         </form>
         <img src="./images/appointment-hero.jpg" alt="Dog and cat playfully interacting indoors">
     </main>
-
-    <div id="footer-placeholder"></div>
-
+    <footer>
+        <div class="logo">
+            <img src="./images/logo.jpg.png" alt="Paradigm Pet Professionals Logo">
+        </div>
+        <div>
+            <h2>Contact Us</h2>
+            <ul>
+                <li>Email: contact@lorempets.com</li>
+                <li>Phone: (123) 456-7890</li>
+                <li>Address: 1234 Lorem Ipsum St., Dolor Sit Amet, Consectetur, 56789</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Business Hours</h2>
+            <ul>
+                <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
+                <li>Saturday: 10:00 AM - 4:00 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </div>
+        <div class="social">
+            <h2>Follow Us</h2>
+            <ul>
+                <li><i class="fa-brands fa-square-facebook fa-xl"></i>
+                <li><i class="fa-brands fa-square-instagram fa-xl"></i></li>
+                <li><i class="fa-brands fa-square-x-twitter fa-xl"></i></li>
+            </ul>
+        </div>
+    </footer>
     <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/84304e656f.js" crossorigin="anonymous"></script>
 </body>
