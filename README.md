@@ -13,3 +13,5 @@ Completed final project for D279 User Interface Design class.
 
 ## IMAGE CREDITS
 All images used in this project are sourced from [Unsplash](https://unsplash.com/).
+
+Live Site : https://jiehlarae.github.io/Paradigm-Pet-Professionals-d279-task-1/
